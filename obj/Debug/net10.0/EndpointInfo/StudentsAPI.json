@@ -89,18 +89,19 @@
         }
       }
     },
-    "/Students/{Name}": {
+    "/Students/{id}": {
       "get": {
         "tags": [
           "Students"
         ],
         "parameters": [
           {
-            "name": "Name",
+            "name": "id",
             "in": "path",
             "required": true,
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],

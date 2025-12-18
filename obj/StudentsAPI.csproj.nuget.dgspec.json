@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PF2TP\\ZoWorkTutorial\\ProjectAPI\\StudentsAPI\\StudentsAPI.csproj": {}
+    "C:\\Users\\PF2TP\\ZoWorkTutorial\\test\\API_Code\\StudentsAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PF2TP\\ZoWorkTutorial\\ProjectAPI\\StudentsAPI\\StudentsAPI.csproj": {
+    "C:\\Users\\PF2TP\\ZoWorkTutorial\\test\\API_Code\\StudentsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PF2TP\\ZoWorkTutorial\\ProjectAPI\\StudentsAPI\\StudentsAPI.csproj",
+        "projectUniqueName": "C:\\Users\\PF2TP\\ZoWorkTutorial\\test\\API_Code\\StudentsAPI.csproj",
         "projectName": "StudentsAPI",
-        "projectPath": "C:\\Users\\PF2TP\\ZoWorkTutorial\\ProjectAPI\\StudentsAPI\\StudentsAPI.csproj",
+        "projectPath": "C:\\Users\\PF2TP\\ZoWorkTutorial\\test\\API_Code\\StudentsAPI.csproj",
         "packagesPath": "C:\\Users\\PF2TP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PF2TP\\ZoWorkTutorial\\ProjectAPI\\StudentsAPI\\obj\\",
+        "outputPath": "C:\\Users\\PF2TP\\ZoWorkTutorial\\test\\API_Code\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

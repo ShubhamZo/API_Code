@@ -26,15 +26,27 @@ namespace StudentsAPI.Controllers
             return Ok(students);
         }
 
+        //GET Student details with ID
         [HttpGet] 
-        [Route("{Name}")]
-        public ActionResult<IEnumerable<Students>> GetById(string Name)
+        [Route("{id}")]
+        public ActionResult<IEnumerable<Students>> GetById(int id)
         {
-            var student = students.FirstOrDefault(s => s.Name == Name);
+            var student = students.FirstOrDefault(s => s.Id == id);
             if (student == null)
                 return NotFound();
             return Ok(student);
         }
+
+        //GET Studend details using Name
+        /*[HttpGet]
+        [Route("{name}")]
+        public ActionResult<IEnumerable<Students>> GetByName(string name)
+        {
+            var student = students.FirstOrDefault(s => s.Name == name);
+            if (student == null)
+                return NotFound();
+            return Ok(student);
+        }*/
         [HttpPost]
 
         public ActionResult<Students> Create(Students newStudent)

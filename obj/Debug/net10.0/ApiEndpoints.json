@@ -48,14 +48,14 @@
   {
     "ContainingType": "StudentsAPI.Controllers.StudentsController",
     "Method": "GetById",
-    "RelativePath": "Students/{Name}",
+    "RelativePath": "Students/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Name",
-        "Type": "System.String",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
