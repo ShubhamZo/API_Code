@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="LibraryApp.Business/LibraryApp.Business.csproj" />
+  <Project Path="LibraryApp.Data/LibraryApp.Data.csproj" />
+  <Project Path="LibraryApp.Models/LibraryApp.Models.csproj" />
+  <Project Path="LibraryApp/LibraryApp.csproj" />
+</Solution>
